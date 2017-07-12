@@ -1,0 +1,58 @@
+c:\users\ruchirapc\documents\visual studio 2015\Projects\Iskolaya\Iskolaya\bin\Debug\Iskolaya.exe
+c:\users\ruchirapc\documents\visual studio 2015\Projects\Iskolaya\Iskolaya\bin\Debug\Iskolaya.pdb
+c:\users\ruchirapc\documents\visual studio 2015\Projects\Iskolaya\Iskolaya\bin\Debug\MetroFramework.dll
+c:\users\ruchirapc\documents\visual studio 2015\Projects\Iskolaya\Iskolaya\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\ruchiraPc\Desktop\Iskolaya-master\Iskolaya\bin\Debug\Iskolaya.exe.config
+C:\Users\ruchiraPc\Desktop\Iskolaya-master\Iskolaya\obj\Debug\Iskolaya.exe
+C:\Users\ruchiraPc\Desktop\Iskolaya-master\Iskolaya\obj\Debug\Iskolaya.pdb
+C:\Users\ruchiraPc\Desktop\Iskolaya-master\Iskolaya\bin\Debug\Iskolaya.exe
+C:\Users\ruchiraPc\Desktop\Iskolaya-master\Iskolaya\bin\Debug\Iskolaya.pdb
+C:\Users\ruchiraPc\Desktop\Iskolaya-master\Iskolaya\bin\Debug\MetroFramework.Design.dll
+C:\Users\ruchiraPc\Desktop\Iskolaya-master\Iskolaya\bin\Debug\MetroFramework.dll
+C:\Users\ruchiraPc\Desktop\Iskolaya-master\Iskolaya\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\ruchiraPc\Desktop\Iskolaya-master\Iskolaya\obj\Debug\Iskolaya.csprojResolveAssemblyReference.cache
+C:\Users\ruchiraPc\Desktop\Iskolaya-master\Iskolaya\obj\Debug\Iskolaya.Dashboard.resources
+C:\Users\ruchiraPc\Desktop\Iskolaya-master\Iskolaya\obj\Debug\Iskolaya.FrmAddStudent.resources
+C:\Users\ruchiraPc\Desktop\Iskolaya-master\Iskolaya\obj\Debug\Iskolaya.Properties.Resources.resources
+C:\Users\ruchiraPc\Desktop\Iskolaya-master\Iskolaya\obj\Debug\Iskolaya.Ucdashboard.resources
+C:\Users\ruchiraPc\Desktop\Iskolaya-master\Iskolaya\obj\Debug\Iskolaya.csproj.GenerateResource.Cache
+C:\Users\ruchiraPc\Desktop\Iskolaya-master\Iskolaya\bin\Debug\MySql.Data.dll
+C:\Users\ruchiraPc\documents\visual studio 2015\Projects\Iskolaya\Iskolaya\bin\Debug\Tulpep.NotificationWindow.dll
+C:\Users\ruchiraPc\documents\visual studio 2015\Projects\Iskolaya\Iskolaya\bin\Debug\Iskolaya.exe.config
+C:\Users\ruchiraPc\documents\visual studio 2015\Projects\Iskolaya\Iskolaya\bin\Debug\MetroFramework.Design.dll
+C:\Users\ruchiraPc\documents\visual studio 2015\Projects\Iskolaya\Iskolaya\bin\Debug\MySql.Data.dll
+C:\Users\ruchiraPc\documents\visual studio 2015\Projects\Iskolaya\Iskolaya\bin\Debug\MySql.Data.xml
+C:\Users\ruchiraPc\documents\visual studio 2015\Projects\Iskolaya\Iskolaya\obj\Debug\Iskolaya.Dashboard.resources
+C:\Users\ruchiraPc\documents\visual studio 2015\Projects\Iskolaya\Iskolaya\obj\Debug\Iskolaya.FrmAddStudent.resources
+C:\Users\ruchiraPc\documents\visual studio 2015\Projects\Iskolaya\Iskolaya\obj\Debug\Iskolaya.FrmAutogenCard.resources
+C:\Users\ruchiraPc\documents\visual studio 2015\Projects\Iskolaya\Iskolaya\obj\Debug\Iskolaya.FrmCard.resources
+C:\Users\ruchiraPc\documents\visual studio 2015\Projects\Iskolaya\Iskolaya\obj\Debug\Iskolaya.Properties.Resources.resources
+C:\Users\ruchiraPc\documents\visual studio 2015\Projects\Iskolaya\Iskolaya\obj\Debug\Iskolaya.Ucdashboard.resources
+C:\Users\ruchiraPc\documents\visual studio 2015\Projects\Iskolaya\Iskolaya\obj\Debug\Iskolaya.csproj.GenerateResource.Cache
+C:\Users\ruchiraPc\documents\visual studio 2015\Projects\Iskolaya\Iskolaya\obj\Debug\Iskolaya.exe
+C:\Users\ruchiraPc\documents\visual studio 2015\Projects\Iskolaya\Iskolaya\obj\Debug\Iskolaya.pdb
+C:\Users\ruchiraPc\Desktop\C# Project\backup\Iskolaya\Iskolaya\bin\Debug\Iskolaya.exe.config
+C:\Users\ruchiraPc\Desktop\C# Project\backup\Iskolaya\Iskolaya\obj\Debug\Iskolaya.exe
+C:\Users\ruchiraPc\Desktop\C# Project\backup\Iskolaya\Iskolaya\obj\Debug\Iskolaya.pdb
+C:\Users\ruchiraPc\Desktop\C# Project\backup\Iskolaya\Iskolaya\obj\Debug\Iskolaya.csprojResolveAssemblyReference.cache
+C:\Users\ruchiraPc\Desktop\C# Project\backup\Iskolaya\Iskolaya\obj\Debug\Iskolaya.AdminForm.resources
+C:\Users\ruchiraPc\Desktop\C# Project\backup\Iskolaya\Iskolaya\obj\Debug\Iskolaya.ClassForm.resources
+C:\Users\ruchiraPc\Desktop\C# Project\backup\Iskolaya\Iskolaya\obj\Debug\Iskolaya.Dashboard.resources
+C:\Users\ruchiraPc\Desktop\C# Project\backup\Iskolaya\Iskolaya\obj\Debug\Iskolaya.FrmAddStudent.resources
+C:\Users\ruchiraPc\Desktop\C# Project\backup\Iskolaya\Iskolaya\obj\Debug\Iskolaya.FrmAutogenCard.resources
+C:\Users\ruchiraPc\Desktop\C# Project\backup\Iskolaya\Iskolaya\obj\Debug\Iskolaya.FrmCard.resources
+C:\Users\ruchiraPc\Desktop\C# Project\backup\Iskolaya\Iskolaya\obj\Debug\Iskolaya.Attendance.resources
+C:\Users\ruchiraPc\Desktop\C# Project\backup\Iskolaya\Iskolaya\obj\Debug\Iskolaya.Properties.Resources.resources
+C:\Users\ruchiraPc\Desktop\C# Project\backup\Iskolaya\Iskolaya\obj\Debug\Iskolaya.SubjectForm.resources
+C:\Users\ruchiraPc\Desktop\C# Project\backup\Iskolaya\Iskolaya\obj\Debug\Iskolaya.TeachersForm.resources
+C:\Users\ruchiraPc\Desktop\C# Project\backup\Iskolaya\Iskolaya\obj\Debug\Iskolaya.Ucdashboard.resources
+C:\Users\ruchiraPc\Desktop\C# Project\backup\Iskolaya\Iskolaya\obj\Debug\Iskolaya.UserForm.resources
+C:\Users\ruchiraPc\Desktop\C# Project\backup\Iskolaya\Iskolaya\obj\Debug\Iskolaya.csproj.GenerateResource.Cache
+C:\Users\ruchiraPc\Desktop\C# Project\backup\Iskolaya\Iskolaya\bin\Debug\Iskolaya.exe
+C:\Users\ruchiraPc\Desktop\C# Project\backup\Iskolaya\Iskolaya\bin\Debug\Iskolaya.pdb
+C:\Users\ruchiraPc\Desktop\C# Project\backup\Iskolaya\Iskolaya\bin\Debug\MetroFramework.Design.dll
+C:\Users\ruchiraPc\Desktop\C# Project\backup\Iskolaya\Iskolaya\bin\Debug\MetroFramework.dll
+C:\Users\ruchiraPc\Desktop\C# Project\backup\Iskolaya\Iskolaya\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\ruchiraPc\Desktop\C# Project\backup\Iskolaya\Iskolaya\bin\Debug\MySql.Data.dll
+C:\Users\ruchiraPc\Desktop\C# Project\backup\Iskolaya\Iskolaya\bin\Debug\Tulpep.NotificationWindow.dll
+C:\Users\ruchiraPc\Desktop\C# Project\backup\Iskolaya\Iskolaya\bin\Debug\MySql.Data.xml
