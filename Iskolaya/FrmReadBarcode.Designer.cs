@@ -202,9 +202,8 @@
             this.lbladdress.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbladdress.Location = new System.Drawing.Point(153, 166);
             this.lbladdress.Name = "lbladdress";
-            this.lbladdress.Size = new System.Drawing.Size(46, 20);
+            this.lbladdress.Size = new System.Drawing.Size(0, 20);
             this.lbladdress.TabIndex = 13;
-            this.lbladdress.Text = "dfgdf";
             // 
             // lblemail
             // 
@@ -212,9 +211,8 @@
             this.lblemail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblemail.Location = new System.Drawing.Point(153, 221);
             this.lblemail.Name = "lblemail";
-            this.lblemail.Size = new System.Drawing.Size(46, 20);
+            this.lblemail.Size = new System.Drawing.Size(0, 20);
             this.lblemail.TabIndex = 12;
-            this.lblemail.Text = "dfgdf";
             // 
             // lblgender
             // 
@@ -222,9 +220,8 @@
             this.lblgender.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblgender.Location = new System.Drawing.Point(153, 282);
             this.lblgender.Name = "lblgender";
-            this.lblgender.Size = new System.Drawing.Size(46, 20);
+            this.lblgender.Size = new System.Drawing.Size(0, 20);
             this.lblgender.TabIndex = 11;
-            this.lblgender.Text = "dfgdf";
             // 
             // lblcontact
             // 
@@ -232,9 +229,8 @@
             this.lblcontact.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblcontact.Location = new System.Drawing.Point(153, 339);
             this.lblcontact.Name = "lblcontact";
-            this.lblcontact.Size = new System.Drawing.Size(46, 20);
+            this.lblcontact.Size = new System.Drawing.Size(0, 20);
             this.lblcontact.TabIndex = 10;
-            this.lblcontact.Text = "dfgdf";
             // 
             // lbldob
             // 
@@ -242,9 +238,9 @@
             this.lbldob.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbldob.Location = new System.Drawing.Point(153, 100);
             this.lbldob.Name = "lbldob";
-            this.lbldob.Size = new System.Drawing.Size(46, 20);
+            this.lbldob.Size = new System.Drawing.Size(9, 20);
             this.lbldob.TabIndex = 8;
-            this.lbldob.Text = "dfgdf";
+            this.lbldob.Text = "\r\n";
             // 
             // label7
             // 

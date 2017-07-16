@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -26,7 +27,7 @@ namespace Iskolaya
             InitializeComponent();
         }
 
-        public void Viewcard(String name, string nic, string dob, string picPath)
+        public void Viewcard(String name, string address, string dob, string picPath)
         {
 
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -42,7 +43,7 @@ namespace Iskolaya
                 PointF point = new PointF(2f, 2f);
                 SolidBrush black = new SolidBrush(Color.Black);
                 SolidBrush white = new SolidBrush(Color.White);
-                graphics.FillRectangle(white, 0, 0, bitmap.Width, bitmap.Height);
+                graphics.FillRectangle(white, 0, 0,160, 55);
                 graphics.DrawString("*" + code + "*", ofont, black, point);
 
 
@@ -61,8 +62,8 @@ namespace Iskolaya
             }
 
 
-            if (!nic.Equals(""))
-                lblid.Text = nic;
+            if (!address.Equals(""))
+                lblid.Text = address;
 
             else
                 lblid.Text = dob;
@@ -98,6 +99,41 @@ namespace Iskolaya
 
         private void pbbarcode_Click(object sender, EventArgs e)
         {
+
+        }
+
+        public void getClassDetails() {
+
+
+            try
+            {
+                MysqlConn msc = new MysqlConn();
+                msc.query = "select institute_name,institute_address from escolaya_db.institute_detail";
+
+                MySqlConnection conn = new MySqlConnection(msc.con);
+                conn.Open();
+                msc.command = new MySqlCommand(msc.query, conn);
+                msc.mdr = msc.command.ExecuteReader();
+
+                while (msc.mdr.Read())
+                {
+
+                    lblinstitutename.Text = msc.mdr.GetString("institute_name");
+                    lblinstituteaddress.Text = msc.mdr.GetString("institute_address");
+
+
+
+                }
+
+                conn.Close();
+
+            }
+            catch (Exception ex)
+            {
+
+
+            }
+
 
         }
     }

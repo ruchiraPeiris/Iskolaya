@@ -30,39 +30,43 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmAutogenCard));
             this.pbbarcode = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblinstitutename = new System.Windows.Forms.Label();
             this.btnprint = new MetroFramework.Controls.MetroTile();
-            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lblid = new System.Windows.Forms.Label();
             this.lblstname = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
-            this.lblid = new System.Windows.Forms.Label();
+            this.lblinstituteaddress = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pbbarcode)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // pbbarcode
             // 
-            this.pbbarcode.Location = new System.Drawing.Point(26, 161);
+            this.pbbarcode.BackColor = System.Drawing.Color.RosyBrown;
+            this.pbbarcode.Location = new System.Drawing.Point(29, 149);
             this.pbbarcode.Name = "pbbarcode";
             this.pbbarcode.Size = new System.Drawing.Size(151, 48);
             this.pbbarcode.TabIndex = 0;
             this.pbbarcode.TabStop = false;
             this.pbbarcode.Click += new System.EventHandler(this.pbbarcode_Click);
             // 
-            // label1
+            // lblinstitutename
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Lucida Sans", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(20, 10);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(214, 32);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Institute Name";
+            this.lblinstitutename.AutoSize = true;
+            this.lblinstitutename.BackColor = System.Drawing.Color.Black;
+            this.lblinstitutename.Font = new System.Drawing.Font("Lucida Sans", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblinstitutename.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblinstitutename.Location = new System.Drawing.Point(7, 13);
+            this.lblinstitutename.Name = "lblinstitutename";
+            this.lblinstitutename.Size = new System.Drawing.Size(172, 25);
+            this.lblinstitutename.TabIndex = 1;
+            this.lblinstitutename.Text = "Institute Name";
             // 
             // btnprint
             // 
@@ -77,28 +81,10 @@
             this.btnprint.UseSelectable = true;
             this.btnprint.Click += new System.EventHandler(this.btnprint_Click);
             // 
-            // metroLabel1
-            // 
-            this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(147, 55);
-            this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(96, 19);
-            this.metroLabel1.TabIndex = 3;
-            this.metroLabel1.Text = "Student Name:";
-            // 
-            // metroLabel2
-            // 
-            this.metroLabel2.AutoSize = true;
-            this.metroLabel2.Location = new System.Drawing.Point(149, 102);
-            this.metroLabel2.Name = "metroLabel2";
-            this.metroLabel2.Size = new System.Drawing.Size(28, 19);
-            this.metroLabel2.TabIndex = 4;
-            this.metroLabel2.Text = "ID :";
-            // 
             // pictureBox1
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Location = new System.Drawing.Point(40, 55);
+            this.pictureBox1.Location = new System.Drawing.Point(13, 6);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(79, 88);
             this.pictureBox1.TabIndex = 7;
@@ -109,27 +95,49 @@
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.BackColor = System.Drawing.Color.RosyBrown;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.lblid);
             this.panel1.Controls.Add(this.lblstname);
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.pbbarcode);
-            this.panel1.Controls.Add(this.metroLabel2);
-            this.panel1.Controls.Add(this.metroLabel1);
-            this.panel1.Location = new System.Drawing.Point(121, 81);
+            this.panel1.Controls.Add(this.panel2);
+            this.panel1.Location = new System.Drawing.Point(120, 81);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(428, 229);
+            this.panel1.Size = new System.Drawing.Size(342, 211);
             this.panel1.TabIndex = 8;
+            // 
+            // lblid
+            // 
+            this.lblid.AutoSize = true;
+            this.lblid.Font = new System.Drawing.Font("Century Schoolbook", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblid.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblid.Location = new System.Drawing.Point(104, 115);
+            this.lblid.Name = "lblid";
+            this.lblid.Size = new System.Drawing.Size(56, 19);
+            this.lblid.TabIndex = 9;
+            this.lblid.Text = "label2";
             // 
             // lblstname
             // 
             this.lblstname.AutoSize = true;
-            this.lblstname.Location = new System.Drawing.Point(249, 55);
+            this.lblstname.Font = new System.Drawing.Font("Century Schoolbook", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblstname.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblstname.Location = new System.Drawing.Point(103, 79);
             this.lblstname.Name = "lblstname";
-            this.lblstname.Size = new System.Drawing.Size(35, 13);
+            this.lblstname.Size = new System.Drawing.Size(77, 25);
             this.lblstname.TabIndex = 8;
             this.lblstname.Text = "label2";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Black;
+            this.panel2.Controls.Add(this.lblinstituteaddress);
+            this.panel2.Controls.Add(this.lblinstitutename);
+            this.panel2.Location = new System.Drawing.Point(91, 6);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(246, 70);
+            this.panel2.TabIndex = 10;
             // 
             // printDocument1
             // 
@@ -148,14 +156,16 @@
             this.printPreviewDialog1.Visible = false;
             this.printPreviewDialog1.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.printPreviewDialog1_FormClosed);
             // 
-            // lblid
+            // lblinstituteaddress
             // 
-            this.lblid.AutoSize = true;
-            this.lblid.Location = new System.Drawing.Point(249, 102);
-            this.lblid.Name = "lblid";
-            this.lblid.Size = new System.Drawing.Size(35, 13);
-            this.lblid.TabIndex = 9;
-            this.lblid.Text = "label2";
+            this.lblinstituteaddress.AutoSize = true;
+            this.lblinstituteaddress.Font = new System.Drawing.Font("Constantia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblinstituteaddress.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblinstituteaddress.Location = new System.Drawing.Point(13, 43);
+            this.lblinstituteaddress.Name = "lblinstituteaddress";
+            this.lblinstituteaddress.Size = new System.Drawing.Size(40, 15);
+            this.lblinstituteaddress.TabIndex = 2;
+            this.lblinstituteaddress.Text = "label2";
             // 
             // FrmAutogenCard
             // 
@@ -171,6 +181,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -178,15 +190,15 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pbbarcode;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblinstitutename;
         private MetroFramework.Controls.MetroTile btnprint;
-        private MetroFramework.Controls.MetroLabel metroLabel1;
-        private MetroFramework.Controls.MetroLabel metroLabel2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lblstname;
         private System.Drawing.Printing.PrintDocument printDocument1;
         private System.Windows.Forms.PrintPreviewDialog printPreviewDialog1;
         private System.Windows.Forms.Label lblid;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label lblinstituteaddress;
     }
 }

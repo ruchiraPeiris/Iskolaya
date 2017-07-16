@@ -107,8 +107,11 @@ namespace Iskolaya
 
             }
             FrmAutogenCard card = new FrmAutogenCard(barcode.ToString(), txtfname.Text, barcode.ToString());
-            card.Viewcard(txtfname.Text,txtnic.Text, dateTimePicker1.Value.ToString("dd-MM-yyyy"),picPath);
+            card.Viewcard(txtfname.Text,txtaddress.Text, dateTimePicker1.Value.ToString("dd-MM-yyyy"),picPath);
+            card.getClassDetails();
             card.ShowDialog();
+
+            
 
 
             //}
